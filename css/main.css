@@ -21,7 +21,6 @@ body {
   padding: 100px 100px;
   transform: translate(-50%, -50%);
   color: #444A45;
-  text-align: center;
   animation-name: intro;
   animation-duration: 8s;
   font-family: 'Merriweather', serif;
@@ -30,14 +29,16 @@ body {
 
 .spacing{
   letter-spacing: 8px;
-  font-size: 70px;
+  font-size: 60px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .bio{
   padding-top: 30px;
   border-top: 3px solid #DDBFC4;
   font-size: 20px;
+  text-align: left;
 }
 
 @keyframes intro {
