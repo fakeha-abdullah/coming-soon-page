@@ -24,12 +24,15 @@ body {
   animation-name: intro;
   animation-duration: 8s;
   font-family: 'Merriweather', serif;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #DDBFC4;
 
 }
 
-.spacing{
+.name{
   letter-spacing: 8px;
-  font-size: 60px;
+  font-size: 50px;
   padding-bottom: 30px;
   text-align: center;
 }
@@ -45,4 +48,50 @@ body {
   from{opacity: 0}
   to{opacity: 1}
 
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.nav {
+  text-align: center;
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 10px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-envelope {
+  background: #DDBFC4;
+  color: white;
+}
+
+.fa-instagram {
+  background: #DDBFC4;
+  color: white;
+}
+
+.fa-vimeo{
+  background: #DDBFC4;
+  color: white;
+}
+
+.fakeha {
+  text-align: center;
 }
